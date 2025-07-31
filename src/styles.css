@@ -1,1 +1,10 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --main-color: #2c3e50;
+  --second-color: #1abc9c;
+  --SecondFooter-color: #1a252f;
+}
+
+.line {
+  height: 4px;
+  width: 80px;
+}

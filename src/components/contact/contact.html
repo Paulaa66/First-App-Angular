@@ -1,0 +1,53 @@
+<section class=" min-vh-100 text-center my-5 pt-5">
+  <div class="mt-5">
+    <h1 class="fw-bold text-uppercase fs-1 text-center mb-3">
+      contact section
+    </h1>
+    <div class="d-flex align-items-center justify-content-center mb-3">
+      <div class="line me-3 bg-black"></div>
+      <i class="fa-solid fa-star"></i>
+      <div class="line ms-3 bg-black"></div>
+    </div>
+    <form action="" class="w-75 mx-auto text-start">
+      <div class="form-floating mb-3">
+        <input
+          type="text"
+          class="form-control border-0 border-bottom"
+          id="userName"
+          placeholder="User Name"
+        />
+        <label for="userName">User Name</label>
+      </div>
+      <div class="form-floating mb-3">
+        <input
+          type="text"
+          class="form-control border-0 border-bottom"
+          id="userAge"
+          placeholder="User Age"
+        />
+        <label for="userAge">User Age</label>
+      </div>
+      <div class="form-floating mb-3">
+        <input
+          type="email"
+          class="form-control border-0 border-bottom"
+          id="userEmail"
+          placeholder="User Email"
+        />
+        <label for="userEmail">User Email</label>
+      </div>
+      <div class="form-floating mb-3">
+        <input
+          type="password"
+          class="form-control border-0 border-bottom"
+          id="userPass"
+          placeholder="User Password"
+        />
+        <label for="userPass">User Password</label>
+      </div>
+      <button class="btn btn-success mt-3" (click)="cancelReload($event)">
+        Send Message
+      </button>
+    </form>
+  </div>
+</section>

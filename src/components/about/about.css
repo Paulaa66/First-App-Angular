@@ -1,0 +1,8 @@
+section {
+  background-color: var(--second-color);
+}
+
+.line {
+  height: 4px;
+  width: 80px;
+}

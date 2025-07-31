@@ -1,0 +1,18 @@
+.layer {
+  background-color: var(--second-color);
+  opacity: 0;
+  transition: 0.5s opacity;
+  -webkit-transition: 0.5s opacity;
+  -moz-transition: 0.5s opacity;
+  -ms-transition: 0.5s opacity;
+  -o-transition: 0.5s opacity;
+  cursor: pointer;
+}
+
+.layer i {
+  font-size: 6rem;
+}
+
+.img-container:hover .layer {
+  opacity: 0.75;
+}
