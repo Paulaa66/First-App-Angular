@@ -8,3 +8,7 @@
   height: 4px;
   width: 80px;
 }
+
+body {
+  overflow-x: hidden;
+}
